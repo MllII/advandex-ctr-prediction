@@ -1,0 +1,21 @@
+# Основные библиотеки для работы с данными
+numpy==1.21.1
+pandas==1.2.4
+
+# Визуализация
+matplotlib==3.3.4
+seaborn==0.11.1
+
+# Scikit-learn и компоненты
+scikit-learn==0.24.1
+scipy==1.7.1
+
+# Для работы с Jupyter
+ipython==7.26.0
+jupyter==1.0.0
+
+# Сохранение моделей
+joblib==1.1.0
+
+# Работа с датами
+python-dateutil==2.8.2

@@ -1,0 +1,33 @@
+{
+    "model_type": "LogisticRegression",
+    "best_params": {
+        "C": 1.0,
+        "penalty": "l2",
+        "solver": "liblinear"
+    },
+    "random_state": 42,
+    "calibration_method": "isotonic",
+    "metrics": {
+        "pr_auc": 0.3572534700098321,
+        "brier_score": 0.1297317094887784,
+        "log_loss": 0.4185266740563963,
+        "roc_auc": 0.7097674864521093,
+        "precision": 0.282818043588444,
+        "recall": 0.6484601975595584,
+        "f1": 0.393859184753838
+    },
+    "calibration_metrics": {
+        "brier_uncalibrated": 0.21375507693683848,
+        "brier_calibrated": 0.1297317094887784,
+        "ece_uncalibrated": 0.2677626204237429,
+        "ece_calibrated": 0.010266754096027423,
+        "mce_uncalibrated": 0.39386325156706165,
+        "mce_calibrated": 0.0793650793650792
+    },
+    "feature_selection": {
+        "method": "RFE",
+        "selected_count": 20
+    },
+    "train_size": 40000,
+    "test_size": 10000
+}

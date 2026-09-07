@@ -1,0 +1,43 @@
+{
+    "numeric_cols": [
+        "hour",
+        "C1",
+        "banner_pos",
+        "device_conn_type",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "ml_feature_1",
+        "ml_feature_3",
+        "ml_feature_4",
+        "ml_feature_5",
+        "ml_feature_6",
+        "ml_feature_8",
+        "ml_feature_9",
+        "ml_feature_10",
+        "site_id_freq",
+        "site_domain_freq",
+        "app_id_freq",
+        "app_domain_freq",
+        "device_id_freq",
+        "device_model_freq"
+    ],
+    "categorical_cols": [
+        "site_category",
+        "app_category",
+        "ml_feature_2",
+        "ml_feature_7"
+    ],
+    "high_cardinality_cols": [
+        "site_id",
+        "site_domain",
+        "app_id",
+        "app_domain",
+        "device_id",
+        "device_model"
+    ]
+}
